@@ -76,4 +76,7 @@ Touch Down, Touch Down Repeat, Touch Up Inside, Touch Up Outside 등 여러가�
 <img width="340" alt="스크린샷 2021-12-27 오후 4 24 53" src="https://user-images.githubusercontent.com/75043852/147446381-b8b2047f-1f18-40b5-8759-567e94abe1e9.png">
 </p>
 
+특이사항: 초기 앱 실행시, 명언이 생성되지 않고, '명언 생성' 버튼을 눌러야 최초의 명언이 생성되었음.
+-> 따라서 viewDidAppear함수를 Override하여 "명언 생성"버튼의 IBAction click이벤트를 인위적으로 방생시켜주었다.
+=> 초기 앱 실행시부터 명언이 생성되어 표시된다.
 
